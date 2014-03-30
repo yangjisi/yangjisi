@@ -1,7 +1,183 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>manufacture</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+    html,body{
+        margin:0;
+        padding:0;
+        overflow:hidden;
+    }
+    #day{   width: 1800px;
+            height: 960px;
+            position: absolute;
+            background :  -webkit-gradient(linear, 0% 0%, 0% 80%,
+            from(rgba(99,105,109,.9)),
+            color-stop(0.4, rgba(233,203,176,1)),
+            color-stop(0.52, rgba(255,238,199,1)),
+            color-stop(0.52, rgba(255,213,162,1)),
+            color-stop(0.76, rgba(74,75,71,1)),
+            to(rgba(24,46,54,.7)));
+             opacity: 1;
+    }
+
+    #night{   width: 1800px;
+             height: 960px;
+            position: absolute;
+        background :  -webkit-gradient(linear, 0% 0%, 0% 80%,
+                    from(rgba(99,100,109,.9)),
+                    color-stop(0.3, rgba(23,73,96,.7)),
+                    color-stop(0.5, rgba(143,123,126,.7)),
+                    color-stop(0.52, rgba(165,128,119,.7)),
+                    color-stop(0.56, rgba(55,13,62,.7)),
+                    color-stop(0.76, rgba(74,75,71,1)),
+                    to(rgba(24,46,54,.7)));
+                        opacity: 1;
+
+                    }
+
+    .base{
+        margin:0;
+        padding:0;
+        position: absolute;
+        width: 1800px;
+        height: 960px;
+        z-index: 0;
+
+    }
+
+    #popcornCanvas{
+        top: 0px;
+        width: 1800px;
+        height:768px;
+        position: absolute;
+        z-index:5;
+    }
+    .container{
+        z-index: 5;
+        position: absolute;
+        background-repeat: no-repeat;
+        -webkit-transform:  translateX(0) translateY(0px) rotate(0deg) skewX(0deg);
+        -webkit-animation: icebuoy 1s 0 infinite alternate cubic-bezier(.35, .3, .28, .3);
+        -webkit-transform-style: preserve-3d;
+    }
+
+    #popmachine{
+        top: 56px;
+        left: 799px;
+        position: absolute;
+        width: 522px;
+        height: 579px;
+        background-image: url("img/popmachine.png");
+    }
+    #popmachine3{
+        top: 178px;
+        left: 876px;
+        position: absolute;
+        width: 355px;
+        height: 314px;
+        background-image: url("img/popmachine_layer.png");
+        z-index:3;
+        -webkit-transform:  translateX(0) translateY(0px) rotate(0deg) skewX(0deg);
+        -webkit-animation: icebuoy 1.01s 0 infinite alternate cubic-bezier(.35, .3, .28, .3);
+        -webkit-transform-style: preserve-3d;
+    }
+    #popmachine_lid{
+        top: 326px;
+        left: 1070px;
+        position: absolute;
+        width: 109px;
+        height: 118px;
+        background-image: url("img/popmachine_lid.png");
+    }
+
+    #popmachine2{
+        top: 544px;
+        left: 843px;
+        position: absolute;
+        width: 449px;
+        height: 177px;
+        background-image: url("img/popmachine_shadow.png");
+        z-index:2;
+    }
+    @-webkit-keyframes icebuoy {
+        from { -webkit-transform: translateX(0) translateY(0px) rotate(0deg) ; }
+        to { -webkit-transform:  translateX(2px) translateY(2px) rotate(.2deg)  ;}
+    }
+
+    #wave{ top: 0px;
+        width: 1800px;
+        height:768px;
+        position: absolute;
+        z-index:2;
+    }
+    #light{
+        display: none;
+    }
+    #lamp{
+        position:absolute;
+        width:45px;
+        height: 50px;
+        left:267px;
+        top:40px;
+        background: rgb(255, 239, 58);
+        border-radius: 10px;
+        -webkit-filter: blur(15px);
+        z-index: 99;
+        -webkit-transform:  translateX(0) translateY(0px) rotate(0deg) skewX(0deg);
+        -webkit-animation: lamp 1.01s 0 infinite alternate cubic-bezier(.35, .3, .28, .3);
+    }
+    @-webkit-keyframes lamp {
+        from { -webkit-transform: scale(.8) translateX(0) translateY(0px) rotate(0deg) ; }
+        to { -webkit-transform:  scale(1.1) translateX(2px) translateY(2px) rotate(.2deg)  ;}
+    }
+    #filament{
+        position:absolute;
+        left:287px;
+        top:65px;
+        width:4px;
+        height: 7px;
+        background: rgb(255, 252, 252);
+        -webkit-filter: blur(1px);
+        z-index: 100;
+    }
+</style>
+
+<script type="text/javascript" src="lib/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="lib/jquery.spritely-0.6.1.js"></script>
+<script type="text/javascript" src="lib/jquery-ui-1.7.2.spritely.custom.min.js"></script>
+<script type="text/javascript" src="js/ocean.js"></script>
+
+
+</head>
+
 <body>
-<h1>I'm jisi</h1>
-<p>I'm hosted with GitHub Pages. squirrel</p>
+
+<div class="base">
+    <div id="night"></div>
+    <div id="day"></div>
+</div>
+
+<div class="container">
+    <div id="popmachine">
+        <div id="light">
+            <div id="lamp"></div>
+            <div id="filament"></div>
+        </div>
+    </div>
+    <div id="popmachine_lid"></div>
+</div>
+
+<div id="popmachine3"></div>
+<div id="popmachine2"></div>
+
+<canvas id="popcornCanvas"></canvas>
+<canvas id="wave"></canvas>
+
+
+<script type="text/javascript" src="js/popcornMachine.js"></script>
+
 </body>
+
 </html>
