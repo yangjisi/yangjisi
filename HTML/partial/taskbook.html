@@ -1,6 +1,16 @@
 <div id="book">
     <div id="bookcontents">
-        <h3></h3>
+
+        <ul class="items">
+            <h1>{{item.label}}</h1>
+            <p>{{item.description}}</p>
+            <ul class="item-thumbs">
+                <li ng-repeat="img in item.images">
+                    <img ng-src="{{img}}">
+                </li>
+            </ul>
+        </ul>
+
     </div>
 
     <div id="bookNav">

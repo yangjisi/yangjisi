@@ -136,26 +136,10 @@ input[type="submit"] {
     border: 1px solid #95c78c;
 }
 
-.toolbtn {
+
+#instructions {
     position: absolute;
-    top: 15px;
-    width: 30px;
-    height: 30px;
-    background-color: rgba(130, 208, 130, 0.3);
-    text-align: center;
-}
-
-#toolprev {
-    left: -30px;
-}
-
-#toolnext {
-    left: 320px;
-}
-
-#toolbox {
-    position: absolute;
-    padding: 8px;
+    padding: 10px;
     top: 8px;
     left: 330px;
     width: 320px;
@@ -164,8 +148,19 @@ input[type="submit"] {
     background-color: rgba(130, 208, 130, 0.1);
 }
 
+#message > p {
+    font-size: 18px;
+    text-align: center;
+}
 
-.tools > p {
+#keyList {
+}
+
+#keyList div{
+    margin: -10px 8px;
+    float: left;
+    width:40px;
+    height:45px;
 }
 
 #bottom {
@@ -553,12 +548,14 @@ a.locationBtn.er {
 }
 
 .layer,
-.item,
-.tool {
+.prop,
+.item {
     position: absolute;
+
 }
 
-.item,
-.tool {
+.layer,
+.item{
     cursor: pointer;
 }
+
