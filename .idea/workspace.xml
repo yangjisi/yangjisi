@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="35" selection-start="51" selection-end="51" vertical-scroll-proportion="0.039577838" vertical-offset="0" max-vertical-offset="585">
+            <state line="6" column="57" selection-start="180" selection-end="180" vertical-scroll-proportion="0.23746702" vertical-offset="0" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -331,7 +331,11 @@
       <created>1397550294190</created>
       <updated>1397550294190</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rename javascript&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Your branch is up-to-date with 'origin/master'.&#10;#&#10;# Changes to be committed:&#10;#&#9;modified:   index.html&#10;#&#10;# Changes not staged for commit:&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#10;">
+      <created>1397550500906</created>
+      <updated>1397550500906</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -477,7 +481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="35" selection-start="51" selection-end="51" vertical-scroll-proportion="0.039577838" vertical-offset="0" max-vertical-offset="585">
+        <state line="6" column="57" selection-start="180" selection-end="180" vertical-scroll-proportion="0.23746702" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
