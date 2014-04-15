@@ -1,35 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8046c49e-0490-4f31-a56a-10b3795ed354" name="Default" comment="findtheportTest">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/foundation.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/jasmine.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/popcorn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/popmachine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/popmachine_layer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/popmachine_lid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/popmachine_shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/ocean.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/popcornMachine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/spec/PlayerSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/spec/SpecHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/src/Player.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/src/Song.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jasmine-2.0.0/boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jasmine-2.0.0/console.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jasmine-2.0.0/jasmine-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jasmine-2.0.0/jasmine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jasmine-2.0.0/jasmine_favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jquery-1.7.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jquery-1.9.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jquery-ui-1.7.2.spritely.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jquery.spritely-0.6.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/require.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CSS/bootstrap.css" afterPath="$PROJECT_DIR$/CSS/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    <list default="true" id="8046c49e-0490-4f31-a56a-10b3795ed354" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bedroom_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/book_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/btr_electricity.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/btr_system.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/btr_vitality.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/btr_weight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/btr_weight_i.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/day.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/drawerL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/drawerR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/engineroom_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/i_book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/i_mappiece01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/i_wheel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/locationbtn_lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/locationbtns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sailor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/stem_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/stern_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/t_book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/t_map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wh_drawer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wheelHouse_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/workshop_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/partial/actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Library/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Library/angular-cookies.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Library/angular-loader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Library/angular-resource.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Library/angular-route.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Library/angular-sanitize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Library/angular-touch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Library/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Library/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/bedroom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/partial/dialogues.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/encounter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/engineRoom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/factories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Library/jquery-2.0.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/partial/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/partial/navigator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/partial/passport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/stem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/stern.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/partial/taskbook.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/partial/topPanel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Library/ui-bootstrap-tpls-0.10.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/wheelhouse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/workshop.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yangjisi.github.io.iws" />
@@ -56,7 +90,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="28" selection-start="982" selection-end="982" vertical-scroll-proportion="1.1081795" vertical-offset="0" max-vertical-offset="570">
+            <state line="14" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.5540897" vertical-offset="0" max-vertical-offset="570">
               <folding />
             </state>
           </provider>
@@ -126,6 +160,80 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yangjisi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yangjisi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yangjisi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yangjisi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yangjisi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yangjisi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yangjisi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yangjisi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yangjisi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yangjisi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yangjisi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,13 +322,18 @@
       <created>1396168324442</created>
       <updated>1396168324442</updated>
     </task>
+    <task id="LOCAL-00001" summary="findtheportTest">
+      <created>1397536090851</created>
+      <updated>1397536090863</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="49" width="1440" height="737" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32866043" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32866043" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -282,7 +395,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="982" selection-end="982" vertical-scroll-proportion="1.1081795" vertical-offset="0" max-vertical-offset="570">
+        <state line="14" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.5540897" vertical-offset="0" max-vertical-offset="570">
           <folding />
         </state>
       </provider>

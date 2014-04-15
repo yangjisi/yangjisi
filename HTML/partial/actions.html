@@ -1,0 +1,12 @@
+<div class="tooltip" ng-click="$event.stopPropagation()" ng-show="showtooltip">
+    <form ng-submit="addValues">
+        <input type="text" ng-model="value"/>
+        <input type="submit" value="add"/>
+    </form>
+</div>
+v
+<!-- value가 "taskbook" 로 미리 지정되어있을때 addVaulue 하면 topPanel에서 addBook ->
+<!-- value가 "mapPiece**" 로 미리 지정되어있을때 addVaulue 하면 topPanel에서 addMap ->
+
+<!-- value가 사용자지정이고 class="tool" 일때 addVaulue 하면 topPanel에서 toolBox-tool li에 추가->
+<!-- value가 사용자지정이고 class="item" 일때 addVaulue 하면 taskbook에서 bookcontents에 추가 ->

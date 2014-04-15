@@ -1,0 +1,576 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    line-height: 2em;
+    background-color: black;
+    color: #fff;
+
+}
+
+#container {
+    position: absolute;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: -480px;
+    width: 960px;
+    height: 640px;
+    left: 50%;
+    background: -webkit-gradient(linear, 0% 0%, 0% 80%, from(rgba(219, 215, 198, 1)), color-stop(0.415, rgba(226, 231, 213, 1)), color-stop(0.44, rgba(227, 236, 223, 1)), color-stop(0.53, rgba(20, 85, 41, 1)), to(rgba(79, 105, 88, 1)));
+}
+
+.tooltip {
+    background-color: #5c9bb7;
+    background-image: -webkit-linear-gradient(top, #5c9bb7, #5392ad);
+    background-image: -moz-linear-gradient(top, #5c9bb7, #5392ad);
+    background-image: linear-gradient(top, #5c9bb7, #5392ad);
+    box-shadow: 0 1px 1px #ccc;
+    border-radius: 3px;
+
+    width: 220px;
+    padding: 5px;
+
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    top: 80px;
+}
+
+.tooltip:after {
+    /* The tip of the tooltip */
+    content: '';
+    position: absolute;
+    border: 6px solid #5190ac;
+    border-color: #5190ac transparent transparent;
+    width: 0;
+    height: 0;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -6px;
+}
+
+.tooltip input {
+    border: none;
+    width: 71%;
+    margin-left: 3px;
+    line-height: 34px;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px #bbb inset;
+    text-align: center;
+    font-size: 16px;
+    font-family: inherit;
+    color: #8d9395;
+    font-weight: bold;
+    outline: none;
+    float: left;
+}
+
+input[type="submit"] {
+    width: 50px;
+}
+
+.slide-animate {
+    position: relative;
+    top: 0;
+    width: 960px;
+    height: 60px;
+    background-color: rgba(100, 100, 100, 0);
+    overflow: hidden;
+}
+
+.slide-animate.ng-enter, .slide-animate.ng-leave {
+    -webkit-transition: all cubic-bezier(0.950, 0.460, 0.450, 0.940) 0.2s;
+    transition: all cubic-bezier(0.950, 0.460, 0.450, 0.940) 0.2s;
+}
+
+.slide-animate.ng-enter,
+.slide-animate.ng-leave.ng-leave-active {
+    top: -60px;
+}
+
+.slide-animate.ng-leave,
+.slide-animate.ng-enter.ng-enter-active {
+    top: 0;
+}
+
+#toppanelBtn {
+    position: relative;
+    left: 440px;
+    width: 40px;
+    height: 20px;
+}
+
+#topContainer {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100px;
+}
+
+#bookHolder {
+    position: absolute;
+    top: 3px;
+    padding: 4px;
+    left: 180px;
+    width: 50px;
+    height: 57px;
+    border-radius: 10px;
+    border: 1px solid #95c78c;
+}
+
+#mapHolder {
+    position: absolute;
+    top: 3px;
+    padding: 8px 2px;
+    left: 740px;
+    width: 50px;
+    height: 57px;
+    border-radius: 10px;
+    border: 1px solid #95c78c;
+}
+
+.toolbtn {
+    position: absolute;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(130, 208, 130, 0.3);
+    text-align: center;
+}
+
+#toolprev {
+    left: -30px;
+}
+
+#toolnext {
+    left: 320px;
+}
+
+#toolbox {
+    position: absolute;
+    top: 3px;
+    left: 330px;
+    width: 320px;
+    height: 60px;
+    background-color: rgba(100, 100, 100, 0.1);
+}
+
+ol.tools {
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    margin-left: -2%;
+}
+
+.tools > li {
+    margin: 1px 10px 2px 10px;
+    padding: 4px;
+    width: 65px;
+    height: 55px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid #95c78c;
+}
+
+#bottom {
+    position: absolute;
+    padding: 0 10px;
+    top: 570px;
+    width: 100%;
+    height: 70px;
+
+}
+
+#btl {
+    position: absolute;
+    top: -3px;
+}
+
+#btl > div {
+    margin-top: 1px;
+    width: 235px;
+}
+
+
+#btl div > p {
+    margin-top: 3px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+#money {
+    position: absolute;
+    background: url("../img/money.png") 0 0 no-repeat;
+}
+
+#day {
+    position: absolute;
+    top: 35px;
+    left: 2px;
+    background: url("../img/day.png") 0 0px no-repeat;
+}
+
+#locations {
+    position: absolute;
+    margin: 0 10px;
+    bottom: 0;
+    left: 240px;
+    width: 426px;
+    height: 65px;
+}
+
+.locationBtn {
+    border-radius: 40px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    position: relative;
+    margin-top: -8px;
+    float: left;
+    width: 71px;
+    height: 71px;
+    background-image: url("../img/locationbtns.png");
+}
+
+/*
+.locationBtn:hover {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.9);
+} */
+.locationBtn img {
+    position: absolute;
+    left: 24px;
+}
+a.locationBtn.wh {
+    background-position: 0 0;
+}
+
+a.locationBtn.ws {
+    background-position: -71px 0;
+}
+
+a.locationBtn.br {
+    background-position: -142px 0;
+}
+
+a.locationBtn.sm {
+    background-position: -284px 0;
+}
+
+a.locationBtn.sr {
+    background-position: -213px 0;
+}
+
+a.locationBtn.er {
+    background-position: -355px 0;
+}
+
+#btr {
+    position: absolute;
+    top: -8px;
+    left: 680px;
+}
+
+#btr div.spec > p {
+    position: absolute;
+    font-size: 25px;
+    margin: 30px 17px;
+}
+
+#wIndicator {
+    position: absolute;
+    top: -5px;
+    left: 177px;
+    width: 50px;
+    height: 80px;
+    background: url("../img/btr_weight_i.png") 6px 32px no-repeat;
+}
+
+#weight {
+    position: absolute;
+    left: 160px;
+    width: 100px;
+    height: 80px;
+    background: url("../img/btr_weight.png") 6px 32px no-repeat;
+}
+#electricity {
+    float: right;
+    width: 80px;
+    height: 75px;
+    background: url("../img/btr_electricity.png") 14px 0 no-repeat;
+}
+
+#vitality p {
+    position: absolute;
+    left: 8px;
+    width: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#vitality {
+    float: left;
+    width: 80px;
+    height: 70px;
+    background: url("../img/btr_vitality.png") 7px 15px no-repeat;
+}
+
+#systemBtn {
+    position: absolute;
+    top: 5px;
+    left: 920px;
+    width: 32px;
+    height: 32px;
+    background: url("../img/btr_system.png");
+}
+
+#maintitle {
+    margin: 100px auto;
+    width: 500px;
+    height: 120px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.btn {
+    float: left;
+    margin: 0 90px;
+    width: 115px;
+    height: 35px;
+    background: #4E9CAF;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+#mainmenu {
+    position: absolute;
+    top: 450px;
+    left: 180px;
+}
+
+.background {
+    position: absolute;
+    top: 0px;
+    width: 960px;
+    height: 640px;
+
+}
+
+#wheelhouse {
+    background-image: url("../img/wheelHouse_bg.png");
+}
+
+#workshop {
+    background-image: url("../img/workshop_bg.png");
+}
+
+#bedroom {
+    background-image: url("../img/bedroom_bg.png");
+}
+
+#stem {
+    background-image: url("../img/stem_bg.png");
+}
+
+#stern {
+    background-image: url("../img/stern_bg.png");
+}
+
+#engineroom {
+    background-image: url("../img/engineroom_bg.png");
+}
+
+#map {
+    position: fixed;
+    display: block;
+    top: 35px;
+    left: -120px;
+    width: 845px;
+    height: 600px;
+    background: url("../img/map_bg.png") 0 0 no-repeat;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#map .closebtn {
+    position: absolute;
+    top: 540px;
+    left: 785px;
+    width: 55px;
+    height: 55px;
+    background-color: rgba(220, 200, 200, .5);
+}
+
+#book {
+    position: fixed;
+    display: block;
+    top: 20px;
+    left: -120px;
+    width: 790px;
+    height: 640px;
+    background: url("../img/book_bg.png") 0 0 no-repeat;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+#book .prev {
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    width: 65px;
+    height: 55px;
+    border: 32px solid #5190ac;
+    border-color: transparent transparent #7e8d37;
+}
+
+#book .next {
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    width: 65px;
+    height: 55px;
+    border: 32px solid #5190ac;
+    border-color: #7e8d37 transparent transparent;
+}
+
+#book .closebtn {
+    position: absolute;
+    top: 560px;
+    left: 705px;
+    width: 55px;
+    height: 55px;
+    background-color: rgba(220, 200, 200, .5);
+}
+
+#dialogueHolder {
+    position: absolute;
+    top: 250px;
+    width: 640px;
+    height: 300px;
+}
+
+#portrait {
+    float: left;
+    margin-top: -90px;
+    margin-left: -40px;
+    width: 215px;
+    height: 357px;
+    border-radius: 20px;
+}
+
+#dialogue {
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 440px;
+    height: 150px;
+    background-color: rgba(220, 220, 220, .6);
+    border-radius: 20px;
+}
+
+#dialogue > p {
+    font-size: 13px;
+    padding: 35px;
+}
+
+#dialogueHolder .closebtn {
+    float: right;
+    padding: 0;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(220, 220, 220, .8);
+}
+
+.background div > img {
+    -webkit-animation: uiButtonIndicatorAdd 1s infinite alternate ease-in-out;
+    -moz-animation: uiButtonIndicatorAdd 1s infinite alternate ease-in-out;
+    animation: uiButtonIndicatorAdd 1s infinite alternate ease-in-out;
+}
+
+@-webkit-keyframes uiButtonIndicatorAdd {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    50% {
+    }
+    100% {
+        -webkit-transform: scale(1.1);
+    }
+}
+
+#wheelhouse #wh_drawer {
+    top: 320px;
+    left: 115px;
+    width: 715px;
+    height: 75px;
+    background: url("../img/wh_drawer.png");
+}
+
+#drawerR {
+    top: 330px;
+    left: 730px;
+    width: 101px;
+    height: 43px;
+    background: url("../img/drawerR.png") 0 0 no-repeat;
+}
+
+#drawerL {
+    top: 330px;
+    left: 118px;
+    width: 101px;
+    height: 43px;
+    background: url("../img/drawerL.png") 0 0 no-repeat;
+}
+
+#i_book {
+    left: 828px;
+    top: 199px;
+    width: 127px;
+    height: 175px;
+    background: url("../img/i_book.png");
+}
+
+#i_book img {
+    position: absolute;
+    top: 40px;
+    left: 20px
+}
+
+#i_wheel {
+    left: 378px;
+    top: 239px;
+    width: 218px;
+    height: 216px;
+    background: url("../img/i_wheel.png");
+}
+
+#i_mappiece01 {
+    top: 270px;
+    left: 50px;
+    width: 288px;
+    height: 124px;
+    background: url("../img/i_mappiece01.png");
+}
+
+.layer,
+.item,
+.tool {
+    position: absolute;
+}
+
+.item,
+.tool {
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+<div id="bottom">
+    <div id="btl">
+        <div id="money">
+            <p>{{ indexObject.indexContext.quantityOfMoney }}</p>
+        </div>
+        <div id="day">
+            <p>{{ indexObject.indexContext.quantityOfDay }}</p></div>
+    </div>
+
+    <div id="locations">
+        <a class="locationBtn wh" href="#/wheelhouse" title="go to the wheelhouse page"></a>
+        <a class="locationBtn ws" href="#/workshop" title="go to the workshop page">
+            <img src="img/locationbtn_lock.png" ng-hide="wsKey">
+        </a>
+        <a class="locationBtn br" href="#/bedroom" title="go to the bedroom page">
+            <img src="img/locationbtn_lock.png">
+        </a>
+        <a class="locationBtn sr" href="#/stem" title="go to the stem page">
+            <img src="img/locationbtn_lock.png">
+        </a>
+        <a class="locationBtn sm" href="#/stern" title="go to the stern page">
+            <img src="img/locationbtn_lock.png">
+        </a>
+        <a class="locationBtn er" href="#/engineRoom" title="go to the engineroom page">
+            <img src="img/locationbtn_lock.png">
+        </a>
+    </div>
+    <div id="btr">
+        <div id="vitality" class="spec"><p>{{ indexObject.indexContext.quantityOfVitality }}</p></div>
+        <div id="wIndicator"></div>
+        <div id="weight" class="spec"><p>{{ indexObject.indexContext.quantityOfWeight }}</p></div>
+        <div id="electricity" class="spec"><p>{{ indexObject.indexContext.quantityOfElectricity }}</p></div>
+
+    </div>
+</div>
